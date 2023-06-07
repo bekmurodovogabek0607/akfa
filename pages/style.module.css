@@ -1,0 +1,183 @@
+.GlobalSee {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.SliderDeraza {
+  width: 100%;
+  height: 170px;
+  display: flex;
+  justify-content: start;
+  gap: 10px;
+  overflow-x: scroll;
+  margin-left: -30px;
+}
+.SliderDeraza > div {
+  width: 100px;
+  transform: scale(0.3);
+  padding: 2px;
+}
+.SliderDeraza::-webkit-scrollbar {
+  display: none;
+}
+
+.rangi {
+  width: 100%;
+  padding: 10px 0px;
+  overflow-x: scroll;
+}
+.rangi::-webkit-scrollbar {
+  display: none;
+}
+.rangi h1 {
+  padding: 0px 0px 10px 0px;
+  margin: 0%;
+}
+.rangi > div {
+  display: flex;
+  gap: 10px;
+}
+.rangi > div > div {
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.tets {
+  color: rgb(143, 247, 238);
+  color: rgb(73, 112, 219);
+  color: rgb(141, 69, 2);
+}
+
+.DerazaGlavniExpanent {
+  width: 350px;
+  margin-top: 20px;
+  position: relative;
+}
+
+.Razmerolish {
+  position: absolute;
+  width: 305px;
+  display: flex;
+  left: 10px;
+  margin-top: -20px;
+}
+.Razmerolish span {
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  margin-top: 7px;
+}
+.Razmerolish input {
+  position: absolute;
+  text-align: center;
+  border: none;
+  margin-top: 10px;
+  background-color: transparent;
+  margin-left: 5%;
+  width: 90%;
+}
+.Razmerolish input:focus {
+  border: none;
+  border-color: transparent;
+}
+
+.Razmerolishboyi {
+  position: absolute;
+  width: 93%;
+  transform: rotate(90deg);
+  right: -154px;
+  display: flex;
+  top: 167px;
+}
+.Razmerolishboyi span {
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  margin-top: 7px;
+}
+.Razmerolishboyi input {
+  position: absolute;
+  text-align: center;
+  border: none;
+  margin-top: 10px;
+  background-color: transparent;
+  margin-left: 5%;
+  width: 90%;
+}
+.Razmerolishboyi input:focus {
+  border: none;
+  border-color: transparent;
+}
+
+.ArkaRazmer {
+  position: absolute;
+  width: 150px;
+  transform: rotate(90deg);
+  right: -70px;
+  display: flex;
+  top: 0px;
+  background-color: red;
+}
+
+.ArkaRazmerPast {
+  position: absolute;
+  width: 35px;
+  right: 65px;
+  display: flex;
+  top: -5px;
+}
+.ArkaRazmerPast span {
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  margin-top: 7px;
+}
+.ArkaRazmerPast input {
+  position: absolute;
+  text-align: center;
+  border: none;
+  margin-top: 12px;
+  background-color: transparent;
+  margin-left: 5%;
+  width: 90%;
+}
+.ArkaRazmerPast input:focus {
+  border: none;
+  border-color: transparent;
+}
+
+.ArkaRazmerTepa {
+  position: absolute;
+  width: 65px;
+  right: 102px;
+  display: flex;
+  top: -5px;
+}
+.ArkaRazmerTepa span {
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  margin-top: 7px;
+}
+.ArkaRazmerTepa input {
+  position: absolute;
+  text-align: center;
+  border: none;
+  margin-top: 12px;
+  background-color: transparent;
+  margin-left: 5%;
+  width: 90%;
+}
+.ArkaRazmerTepa input:focus {
+  border: none;
+  border-color: transparent;
+}/*# sourceMappingURL=style.module.css.map */
