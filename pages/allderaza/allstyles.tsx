@@ -41,7 +41,7 @@ const allstyles = (props: PageProps) => {
     return (
         <div className={styles['AllDeraza']}>
             <div>
-                <h2>Dizaylarni qo'shing</h2>
+                <h2>Dizaylarni qoshing</h2>
                 <div>
                     <label htmlFor="hammasi">Barchasi</label>
                     <input type='checkbox' id='hammasi' />
@@ -196,7 +196,7 @@ const allstyles = (props: PageProps) => {
                 </div>
                 <div className={styles['AddNewStyles']}>
                     <h1>+</h1>
-                    <h4>Yangi dizayn qo'shtiring</h4>
+                    <h4>Yangi dizayn qoshtiring</h4>
                 </div>
 
 
