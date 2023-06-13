@@ -17,7 +17,7 @@ import Derazastyle12 from '@/component/derazaStyle/Derazastyle12'
 import Derazastyle13 from '@/component/derazaStyle/Derazastyle13'
 import Derazastyle14 from '@/component/derazaStyle/Derazastyle14'
 import { PageProps } from '../_app'
-import { log } from 'console'
+
 
 import { useQuery } from '@/component/Router'
 const allstyles = (props: PageProps) => {
@@ -36,7 +36,7 @@ const allstyles = (props: PageProps) => {
       return true
         
     }
-    console.log(props.MyStyles);
+  
 
     return (
         <div className={styles['AllDeraza']}>

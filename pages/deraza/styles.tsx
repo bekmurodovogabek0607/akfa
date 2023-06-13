@@ -22,7 +22,7 @@ import Derazastyle14 from '@/component/derazaStyle/Derazastyle14'
 import { useQuery } from '@/component/Router'
 const styles = (props: PageProps) => {
    
-    console.log(props.MyStyles.length);
+   
     function DerazaStyles(params: string): React.JSX.Element {
         switch (params) {
             case "Derazastyle1":
