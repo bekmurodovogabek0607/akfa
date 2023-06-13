@@ -1,3 +1,4 @@
+'use client'
 import Button from '@/component/Button'
 import React from 'react'
 import styles from './allderaza.module.scss'
