@@ -3,7 +3,7 @@ import Button from '@/component/Button'
 import React from 'react'
 import styless from './deraza.module.scss'
 import Image from 'next/image'
-import { useRouter } from 'next/router'
+
 import { PageProps } from '../_app'
 import Derazastyle1 from '@/component/derazaStyle/Derazastyle1'
 import Derazastyle2 from '@/component/derazaStyle/Derazastyle2'
@@ -19,8 +19,9 @@ import Derazastyle11 from '@/component/derazaStyle/Derazastyle11'
 import Derazastyle12 from '@/component/derazaStyle/Derazastyle12'
 import Derazastyle13 from '@/component/derazaStyle/Derazastyle13'
 import Derazastyle14 from '@/component/derazaStyle/Derazastyle14'
+import { useQuery } from '@/component/Router'
 const styles = (props: PageProps) => {
-    const useroutes = useRouter()
+   
     console.log(props.MyStyles.length);
     function DerazaStyles(params: string): React.JSX.Element {
         switch (params) {
@@ -85,7 +86,7 @@ const styles = (props: PageProps) => {
                 props.MyStyles.length == 0 ?
                     <div className={styless['AddStyles']}>
                         <Image src={'/images/derazastyles1.jpg'} width={200} height={200} />
-                        <Button class='BtnSucc' text="Mavjud dizaynlarni qo'shing" handelClick={() => { useroutes.push('/allderaza/allstyles') }} />
+                        <Button class='BtnSucc' text="Mavjud dizaynlarni qo'shing" handelClick={() => { useQuery('/allderaza/allstyles') }} />
                     </div>
                     :
                     <div className={styless['AllDeraza']}>
