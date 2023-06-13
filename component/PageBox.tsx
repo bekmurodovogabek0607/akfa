@@ -12,7 +12,10 @@ const PageBox = ({children, ...rest }: PageBoxType) => {
     return (
         <Link href={rest.link}>
             <div className={style['PageBox']}>
-                {children}
+                <div>
+                    <Image src={rest.imgSrc} height={200} width={200}/>
+                </div>
+               
               
                 <h3>{rest.text}</h3>
             </div>

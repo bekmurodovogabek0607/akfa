@@ -10,6 +10,8 @@ import Container from '@/component/Container'
 import FlexBox from '@/component/FlexBox'
 import Head from 'next/head'
 import Derazastyle1 from '@/component/derazaStyle/Derazastyle1'
+import Derazastyle2 from '@/component/derazaStyle/Derazastyle2'
+import Derazastyle11 from '@/component/derazaStyle/Derazastyle11'
 const index = (props: PageProps) => {
     return (<>
         <Head>
@@ -17,11 +19,11 @@ const index = (props: PageProps) => {
         </Head>
         <Container >
             <FlexBox >
-                <PageBox imgSrc='' text='Eshik' link='/eshik/1' />
-                <PageBox imgSrc='' text='Deraza' link='/deraza/1' />
+                <PageBox imgSrc='/images/eshik.png' text='Eshik' link='/eshik/1' />
+                <PageBox imgSrc='/images/image.webp' text='Deraza' link='/deraza/styles' />
                 <PageBox imgSrc='' text='Fortichka' link='/eshi/1' />
             </FlexBox>
-        </Container>s
+        </Container>
     </>
 
     )

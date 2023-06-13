@@ -19,7 +19,7 @@ const Derazastyle1 = (
     }) => {
 
     return (
-        <Container>
+        <div className={styles['Container']}>
            
             <DerazaKaropka tepashisha='none' seerazmer={seerazmer} derazaColor={derazaColor}>
                 <Derazashisha>
@@ -37,7 +37,7 @@ const Derazastyle1 = (
 
                 </Derazashisha>
             </DerazaKaropka>
-        </Container>
+        </div>
 
     )
 }
