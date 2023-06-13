@@ -20,7 +20,7 @@ import Derazastyle12 from '@/component/derazaStyle/Derazastyle12'
 import Derazastyle13 from '@/component/derazaStyle/Derazastyle13'
 import Derazastyle14 from '@/component/derazaStyle/Derazastyle14'
 const styles = (props: PageProps) => {
-    const routes = useRouter()
+    const useroutes = useRouter()
     console.log(props.MyStyles.length);
     function DerazaStyles(params: string): React.JSX.Element {
         switch (params) {
@@ -85,7 +85,7 @@ const styles = (props: PageProps) => {
                 props.MyStyles.length == 0 ?
                     <div className={styless['AddStyles']}>
                         <Image src={'/images/derazastyles1.jpg'} width={200} height={200} />
-                        <Button class='BtnSucc' text="Mavjud dizaynlarni qo'shing" handelClick={() => { routes.push('/allderaza/allstyles') }} />
+                        <Button class='BtnSucc' text="Mavjud dizaynlarni qo'shing" handelClick={() => { useroutes.push('/allderaza/allstyles') }} />
                     </div>
                     :
                     <div className={styless['AllDeraza']}>

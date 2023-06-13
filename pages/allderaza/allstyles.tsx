@@ -20,7 +20,7 @@ import { PageProps } from '../_app'
 import { log } from 'console'
 import { useRouter } from 'next/router'
 const allstyles = (props: PageProps) => {
-    const router=useRouter()
+    const userouter=useRouter()
     function AddMystyles(check: boolean, style: string) {
          console.log(props.MyStyles);
          if (check) props.setMyStyles([...props.MyStyles, style])
@@ -201,7 +201,7 @@ const allstyles = (props: PageProps) => {
 
             </div>
             <div>
-                <Button handelClick={() => { router.push('/deraza/styles')}} class='BtnSucc' text="Dizaylarni qo'shish" />
+                <Button handelClick={() => { userouter.push('/deraza/styles')}} class='BtnSucc' text="Dizaylarni qo'shish" />
             </div>
         </div>
     )
