@@ -19,7 +19,7 @@ import Derazastyle14 from '@/component/derazaStyle/Derazastyle14'
 import { PageProps } from '../_app'
 
 
-import { useQuery } from '@/component/Router'
+import { useQuery } from '@/component/userouter'
 const allstyles = (props: PageProps) => {
    
     function AddMystyles(check: boolean, style: string) {

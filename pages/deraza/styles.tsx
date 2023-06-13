@@ -19,7 +19,7 @@ import Derazastyle11 from '@/component/derazaStyle/Derazastyle11'
 import Derazastyle12 from '@/component/derazaStyle/Derazastyle12'
 import Derazastyle13 from '@/component/derazaStyle/Derazastyle13'
 import Derazastyle14 from '@/component/derazaStyle/Derazastyle14'
-import { useQuery } from '@/component/Router'
+import { useQuery } from '@/component/userouter'
 const styles = (props: PageProps) => {
    
    
